@@ -1,1 +1,2 @@
 # dig_methods
+type
