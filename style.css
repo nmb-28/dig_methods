@@ -1,1 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+body
+{
+    font-family: 'Nunito', Arial, sans-serif;
+    background: #F4E3B2;    /* vanilla page background */
+    color: #310E10;     /* dark brown text color */
+    max-width: 700px;
+    margin: 0;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+/* base block style - same for all blocks */
+.block {
+    padding: 18px 20px;
+    margin: 16px 0;
+    border-radius: 12px;
+}
+
+/* specifics for each block type */
+.title_block {
+    background: #74070E;    /* dark red background */
+    color: #F4E3B2;     /* vanilla text color */
+}
+
+.header_block {
+    background: #45462A;    /* grey brown background */
+    color: #F4E3B2;     /* vanilla text color */
+}
+
+.para_block {
+    background: #947268 ;    /* cinerous background */
+    color: #F4E3B2;     /* vanilla text color */
+}
+
+.list_block {
+    background: #310E10;    /* dark brown background */
+    color: #F4E3B2;     /* vanilla text color */
+}
+
+/* inside of block */
+
+#main_title {
+    font-size: 40px;
+    margin: 0 0 8px 0;
+}
+
+.subheader {
+    margin: 0;
+    font-size: 24px;
+}
+
+.paragraph {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#list {
+    margin: 0;
+    padding-left: 22px;
+}
+
+/* links */
+a {
+    color:#F4E3B2;     /* vanilla text color */
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+a:hover {
+    color:#74070E;     /* dark red text color on hover */
+    opacity: 0.85;
+}
+
+/* divider */
+#line { 
+    border: none;
+    border-top: 2px solid #45462A;    /* grey brown divider */
+    margin: 24px 0;
+}
