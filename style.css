@@ -80,3 +80,28 @@ a:hover {
     border-top: 2px solid #45462A;    /* grey brown divider */
     margin: 24px 0;
 }
+
+.nav_block {
+    background: #45462A;   /* grey brown background */
+}
+
+.nav {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;    /* wraps links on small screens */
+    justify-content: center;    /* centered rows */
+}
+
+.nav_link {
+    background: #F4E3B2;     /* vanilla background for links */
+    color: #310E10;     /* dark brown text color */
+    padding: 10px 14px;
+    border-radius: 999px;   /* pill shape */
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav_link:hover {
+    background: #947268;
+    color: #F4E3B2;
+}
